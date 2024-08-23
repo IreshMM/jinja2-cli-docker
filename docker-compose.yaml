@@ -1,6 +1,6 @@
 services:
   jinja2-cli:
-    image: ireshmm/jinja2-cli:0.0.4
+    image: ireshmm/jinja2-cli:0.0.6
     build: .
     volumes:
       - ./test/input.yaml:/home/app/input:ro
