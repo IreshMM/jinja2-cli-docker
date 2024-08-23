@@ -3,7 +3,7 @@ services:
     image: ireshmm/jinja2-cli:0.0.4
     build: .
     volumes:
-      - ./test/input.json:/home/app/input:ro
+      - ./test/input.yaml:/home/app/input:ro
       - ./test/template.j2:/home/app/template.j2:ro
       - ./test/output.txt:/home/app/output
     stop_grace_period: 0s
